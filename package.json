@@ -1,0 +1,22 @@
+{
+    "name": "zea-bot",
+    "version": "1.0.0",
+    "description": "Discord Bot",
+    "main": "index.js",
+    "scripts": {
+        "start": "index.js",
+        "node": "node run index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Aripp7/zea-bot.git"
+    },
+    "author": "Ahmad Arif",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/rest": "^0.1.0-canary.0",
+        "discord-api-types": "^0.25.2",
+        "discord.js": "^12.5.3",
+        "distube": "^3.0.4"
+    }
+}
